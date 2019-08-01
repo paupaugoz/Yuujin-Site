@@ -1,5 +1,5 @@
 {
-  "homepage": "https://paupaugoz.github.io/Yuujin-Site",
+  "homepage": "https://paupaugoz.github.io/Yuujin-Site/",
   "name": "Yuujin-Site",
   "version": "0.1.0",
   "private": true,
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "bootstrap": "^4.3.1",
-    "gh-pages": "^2.1.0",
+    "gh-pages": "^2.0.1",
     "react-animations": "^1.0.0",
     "react-bootstrap": "^1.0.0-beta.10",
     "react-router": "^5.0.1",
