@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Yuujin-Site/precache-manifest.85f93a9c6c960b6e05f2546dd4640c0f.js"
+  "/Yuujin-Site/precache-manifest.dbb6a195c741533143f22dbe76871925.js"
 );
 
 self.addEventListener('message', (event) => {
