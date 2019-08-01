@@ -5,7 +5,11 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-reveal": "^1.2.2",
+    "react-router-bootstrap": "^0.25.0",
+    "react-scripts": "3.0.1",
+    "react-sticky": "^6.0.3",
+    "react-sticky-el": "^1.0.20"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +31,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "react-animations": "^1.0.0",
+    "react-bootstrap": "^1.0.0-beta.10",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "styled-components": "^4.3.2"
   }
 }
