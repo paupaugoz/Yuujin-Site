@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f903d0d3cb2aefcd4906c8eff70ffd8",
+    "revision": "7f42f3fc44767cf8fa399adc26440e98",
     "url": "/Yuujin-Site/index.html"
   },
   {
-    "revision": "162bf8ea4331eabe22b2",
+    "revision": "ff369bff66a75f19d71e",
     "url": "/Yuujin-Site/static/css/main.995d51dc.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Yuujin-Site/static/js/2.47bc1a0f.chunk.js"
   },
   {
-    "revision": "162bf8ea4331eabe22b2",
-    "url": "/Yuujin-Site/static/js/main.4cce6851.chunk.js"
+    "revision": "ff369bff66a75f19d71e",
+    "url": "/Yuujin-Site/static/js/main.c6562bf8.chunk.js"
   },
   {
     "revision": "fa9439dc35ffbb594985",
