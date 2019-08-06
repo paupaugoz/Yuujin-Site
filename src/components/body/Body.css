@@ -12,6 +12,10 @@ a {
   width: 100%;
 }
 
+
+.img-container {
+ outline: 5px solid black;
+}
 .logo-image {
 	height: 50px;
 	width: 50px;
@@ -19,12 +23,51 @@ a {
 }
 
 .hero {
-	background-color: black;
-	opacity: 0.8;
+	background-color: inherit;
 }
 
 .navbar-text {
 	color: var(--yellow) !important;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+#first-pic {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	/*border: 3px solid black;*/
+	flex-wrap: wrap;
+}
+
+.test { 
+	padding: 50px;
+	 }
+
+.test p {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+@media (min-width: 576px) { 
+}
+
+@media (min-width: 768px) { 
 }
 
 
+@media (min-width: 992px) { 
+}
+
+
+@media (min-width: 1200px) { 
+	.arrow-container {
+		top: 65%;
+	}
+
+	.hero-image-wrapper {
+		top: 30%;
+	}
+}

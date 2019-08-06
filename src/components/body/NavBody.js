@@ -9,12 +9,12 @@ render() {
     return (
 
   <div className="navbar-container hero">
-    
+    <header>
     <Navbar  collapseOnSelect expand="lg"  variant="dark">
-  <Navbar.Brand href="#hero-container"><img className="logo-image" src="yuujin_web.png"/></Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto">
+      <Navbar.Brand href="#hero-container"><img className="logo-image" src="yuujin_web.png"/></Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav >
       
       
     </Nav>
@@ -27,7 +27,7 @@ render() {
 </Navbar>
 
 
-
+  </header>
   </div>
 
     )

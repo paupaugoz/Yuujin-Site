@@ -13,7 +13,7 @@
 }
 body, html {
   font-family: 'Open Sans', sans-serif;
-  overflow-x: hidden;
+  overflow-x: auto;
   scroll-behavior: smooth;
 }
 
@@ -34,7 +34,6 @@ body, html {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  border: 2px solid red;
   width: 100vw;
 }
 
@@ -42,6 +41,9 @@ body, html {
   position: relative;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
 
 
 
@@ -54,6 +56,11 @@ body, html {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 
