@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Yuujin-Site/static/css/main.f7cf1d15.chunk.css",
-    "main.js": "/Yuujin-Site/static/js/main.53b05b70.chunk.js",
-    "main.js.map": "/Yuujin-Site/static/js/main.53b05b70.chunk.js.map",
+    "main.js": "/Yuujin-Site/static/js/main.5475f135.chunk.js",
+    "main.js.map": "/Yuujin-Site/static/js/main.5475f135.chunk.js.map",
     "runtime~main.js": "/Yuujin-Site/static/js/runtime~main.1e56bcf9.js",
     "runtime~main.js.map": "/Yuujin-Site/static/js/runtime~main.1e56bcf9.js.map",
     "static/js/2.e5b666ff.chunk.js": "/Yuujin-Site/static/js/2.e5b666ff.chunk.js",
     "static/js/2.e5b666ff.chunk.js.map": "/Yuujin-Site/static/js/2.e5b666ff.chunk.js.map",
     "index.html": "/Yuujin-Site/index.html",
-    "precache-manifest.e5541eabc2168853b6f33b8f9d4b6993.js": "/Yuujin-Site/precache-manifest.e5541eabc2168853b6f33b8f9d4b6993.js",
+    "precache-manifest.ee47fc0388775e5a22335366a3868267.js": "/Yuujin-Site/precache-manifest.ee47fc0388775e5a22335366a3868267.js",
     "service-worker.js": "/Yuujin-Site/service-worker.js",
     "static/css/main.f7cf1d15.chunk.css.map": "/Yuujin-Site/static/css/main.f7cf1d15.chunk.css.map"
   }
