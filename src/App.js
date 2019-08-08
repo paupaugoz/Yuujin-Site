@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 import NavBody from './components/body/NavBody';
 import Body from './components/body/Body';
 import Sticky from 'react-sticky-el';
-
+import ScrollUpButton from 'react-scroll-up-button';
 
 function App() {
     var divStyle = {
@@ -16,7 +16,11 @@ function App() {
  
 };
   return (
+
     <div className="App wrap">
+      <div>
+        <ScrollUpButton AnimationDuration={500} />
+      </div>
      <Fade>
       <div className="sticky-container">
         <Sticky style={divStyle} topOffset={500}>

@@ -12,9 +12,13 @@ a {
   width: 100%;
 }
 
+#main-container {
+	width: 100%;
+	height: auto;
+}
 
 .img-container {
- outline: 5px solid black;
+
 }
 .logo-image {
 	height: 50px;
@@ -50,24 +54,99 @@ a {
 	font-weight: bold;
 	font-size: 1rem;
 }
+.yuujin-image {
+	background-image: url(yuujin_sign.jpg);
+	width: 100vw;
+	height: 250px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: 5px solid var(--yellow);
+	}
+
+	.yuujin-image1 {
+	background-image: url(yuujin_sign.jpg);
+	width: 100vw;
+	height: 250px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: 5px solid var(--yellow);
+	}
 
 @media (min-width: 576px) { 
+	.yuujin-image {
+		background-size: cover;
+		background-position: 0 0;
+		background-attachment: scroll;
+		height: 450px;
+	}
+	.yuujin-image1 {
+		height: 450px;
+	}
 }
 
 @media (min-width: 768px) { 
+	.yuujin-image {
+		height: 650px;
+	}
+	.yuujin-image1 {
+		height: 650px;
+	}
+
 }
 
 
 @media (min-width: 992px) { 
+	.yuujin-image {
+	background-image: url(yuujin_sign.jpg);
+	width: 100vw;
+	height: 500px;
+    background-attachment: fixed;
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+	}
+	.yuujin-image1 {
+	background-image: url(yuujin_sign.jpg);
+	width: 100vw;
+	height: 100%;
+    background-attachment: fixed;
+    background-position: 0px -25%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+	}
 }
 
 
 @media (min-width: 1200px) { 
-	.arrow-container {
-		top: 65%;
+	.img-container {
+		height: 800px;
+		flex: 1 auto;
 	}
-
-	.hero-image-wrapper {
-		top: 30%;
+	.yuujin-image {
+		height: 100%;
+		background-position: -300px -25%;
+		outline: 5px solid var(--yellow);
+        transform: translateY(-50px);
+		width: 100%;
+	}
+	.yuujin-image1 {
+		outline: 5px solid var(--yellow);
+        transform: translateY(-90px);
+		width: 100%;
+	}
+	.flex-row-lg {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.test {
+		padding: 0px 50px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
 	}
 }
