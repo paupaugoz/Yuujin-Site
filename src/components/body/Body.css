@@ -68,7 +68,7 @@ a:hover {
 	font-size: 1rem;
 }
 .yuujin-image {
-	background-image: url(yuujin_sign.jpg);
+	background-image: url(%PUBLIC_URL%/yuujin_sign.jpg);
 	width: 100vw;
 	height: 250px;
     background-attachment: scroll;
