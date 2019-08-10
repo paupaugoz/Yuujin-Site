@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f88fa9344b5ddaf751148a133a164fdb",
+    "revision": "4e8511a71dc056989df5f88491c0aba3",
     "url": "/Yuujin-Site/index.html"
   },
   {
-    "revision": "1f4a0545cf3e6fc95558",
-    "url": "/Yuujin-Site/static/css/main.07f79b8d.chunk.css"
+    "revision": "89a6d376a98ee19a842e",
+    "url": "/Yuujin-Site/static/css/main.a8d1c8b8.chunk.css"
   },
   {
-    "revision": "2fcb8ca7cd4836fdbc9b",
-    "url": "/Yuujin-Site/static/js/2.92d3ce88.chunk.js"
+    "revision": "e5cb0a99cdda701caa01",
+    "url": "/Yuujin-Site/static/js/2.4d79a607.chunk.js"
   },
   {
-    "revision": "1f4a0545cf3e6fc95558",
-    "url": "/Yuujin-Site/static/js/main.02cc4e24.chunk.js"
+    "revision": "89a6d376a98ee19a842e",
+    "url": "/Yuujin-Site/static/js/main.4447f373.chunk.js"
   },
   {
     "revision": "fa9439dc35ffbb594985",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d20709f7686ea5ba0a756f7096f6935e",
     "url": "/Yuujin-Site/static/media/yuujin_bar_1080.d20709f7.jpg"
+  },
+  {
+    "revision": "c19dbd96208473a1a9f1de52f34f6ee0",
+    "url": "/Yuujin-Site/static/media/yuujin_front1.c19dbd96.jpg"
   },
   {
     "revision": "27665f4826c19277f8f3e9689e72578e",
