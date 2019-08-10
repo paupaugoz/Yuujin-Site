@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d96ec741719c14dc1c77aa42ae3ddd27",
+    "revision": "0cd365238e5b51bd283d016204fc6a1a",
     "url": "/index.html"
   },
   {
-    "revision": "0e2b63c91d83ff5391ab",
-    "url": "/static/css/main.4a1a715c.chunk.css"
+    "revision": "1364648df62af54c1796",
+    "url": "/static/css/main.34dd4583.chunk.css"
   },
   {
     "revision": "636742bbcb5cf3715522",
     "url": "/static/js/2.f25b7453.chunk.js"
   },
   {
-    "revision": "0e2b63c91d83ff5391ab",
+    "revision": "1364648df62af54c1796",
     "url": "/static/js/main.0ab34763.chunk.js"
   },
   {
@@ -26,5 +26,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c19dbd96208473a1a9f1de52f34f6ee0",
     "url": "/static/media/yuujin_front1.c19dbd96.jpg"
+  },
+  {
+    "revision": "27665f4826c19277f8f3e9689e72578e",
+    "url": "/static/media/yuujin_sign.27665f48.jpg"
   }
 ]);
