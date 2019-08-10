@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 
-  <BrowserRouter basename="/Yuujin-Site/">
+  <BrowserRouter basename="/">
     <Route path="/" component={App} />
   </BrowserRouter>,
   document.getElementById('root')
