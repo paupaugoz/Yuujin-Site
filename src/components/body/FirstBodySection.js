@@ -18,9 +18,9 @@ render() {
       </div>
       </Fade>
       <Fade right>
-      <div className="test">
+      <div className="body-text">
         <p>Experience authentic Japanese food in the heart of Little Baguio.</p>
-        <Button variant="outline-primary">Browse Menu</Button>
+         <Button variant="outline-primary">Browse Menu</Button>
       </div>
       </Fade>
 

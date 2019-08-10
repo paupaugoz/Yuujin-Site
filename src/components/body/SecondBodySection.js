@@ -10,19 +10,18 @@ render() {
 
     return (
   <div id="second-pic">
-    <section className="flex-row-lg">
-    <Fade right>
-      <div className="test">
-        <p>Experience authentic Japanese food in the heart of Little Baguio.</p>
-        <Button variant="outline-primary">Browse Menu</Button>
+    <section className="flex-row-lg flex-column-reverse">
+    <Fade left>
+      <div className="body-text">
+        <p>Satiate your hunger, cherish the sweet aroma, and immerse yourself in the Japanese experience.</p>
       </div>
       </Fade>
-       <Fade left>
+       <Fade right>
       <div className="img-container">
-         <div className="yuujin-image1"></div>
+         <div className="yuujin-front"></div>
       </div>
       </Fade>
-      
+
 
     </section>
   
