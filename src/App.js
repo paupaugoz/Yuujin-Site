@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import Hero from './components/hero/Hero';
-import Reveal from 'react-reveal/Reveal';
-import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import NavBody from './components/body/NavBody';
 import Body from './components/body/Body';
 import Sticky from 'react-sticky-el';
 import ScrollUpButton from 'react-scroll-up-button';
+
+
 
 function App() {
     var divStyle = {
@@ -23,7 +23,7 @@ function App() {
       </div>
      <Fade>
       <div className="sticky-container">
-        <Sticky style={divStyle} topOffset={500}>
+        <Sticky style={divStyle} topOffset={300}>
           <NavBody />
         </Sticky>
       </div>

@@ -35,9 +35,10 @@ img {
 }
 
 .navbar-container {
-	position: absolute;
+	position: relative;
+	border-bottom: 5px solid var(--yellow);
 	top: 0px;
-	background-color: black;
+	background-color: var(--violet);
 	width: 100%;
 }
 

@@ -25,6 +25,7 @@ a:hover {
 	height: auto;
 }
 
+
 .img-container {
 
 }
@@ -92,7 +93,36 @@ a:hover {
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.menu-btn {
+	color: var(--yellow);
+	border-color: var(--yellow);
+}
+	.menu-btn:hover, .menu-btn:active {
+	background-color: var(--yellow);
+	}
+	#test-container {
+		
+		
+		height: auto;
+	}
+	#menu-container {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		overflow-x: auto;
+		
+	}
+	#menu-container h1, h2 {
+		color: var(--yellow);
+	}
+	.padding-20 {
+		padding: 20px;
+	}
 @media (min-width: 576px) { 
+	#menu-container {
+		
+	}
 
 	.yuujin-image {
 		background-size: cover;

@@ -12,7 +12,7 @@ render() {
   <div className="navbar-container hero">
     <header>
     <Navbar  collapseOnSelect expand="lg"  variant="dark">
-      <Navbar.Brand><img className="logo-image" src="yuujin_web.png"/></Navbar.Brand>
+      <Navbar.Brand href="/"><img className="logo-image" alt="Yuujin-logo" src="yuujin_web.png"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav >
@@ -20,6 +20,7 @@ render() {
       
     </Nav>
     <Nav>
+      <Nav.Link><Link className="navbar-text" to="menu">MENU</Link></Nav.Link>
       <Nav.Link><Link className="navbar-text" smooth to="#first-pic">CONTACT US</Link></Nav.Link>
       <Nav.Link><Link className="navbar-text" smooth to="#first-pic">LOCATION</Link></Nav.Link>
       <Nav.Link><Link className="navbar-text" smooth to="#first-pic">ABOUT US</Link></Nav.Link>

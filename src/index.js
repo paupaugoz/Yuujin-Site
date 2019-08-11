@@ -1,15 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Route } from "react-router-dom";
+import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
 import './index.css';
+import Menu from './components/body/Menu';
+import Notfound from './components/error/error';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 
-  <BrowserRouter basename="/">
-    <Route path="/" component={App} />
-  </BrowserRouter>,
+  <Router basename="/">
+    <Switch>
+      <Route exact path="/" component={App} />
+      <Route path="/menu" component={Menu} />
+      <Route component={Notfound} />
+    </Switch>
+  </Router>,
   document.getElementById('root')
   );
 

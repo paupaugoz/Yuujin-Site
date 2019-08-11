@@ -3,6 +3,7 @@ import { Nav, Navbar, Navlink } from 'react-bootstrap'
 import './Body.css';
 import Fade from 'react-reveal/Fade';
 import Button from 'react-bootstrap/Button'
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default class FirstBodySection extends Component {
 
@@ -20,7 +21,7 @@ render() {
       <Fade right>
       <div className="body-text">
         <p>Experience authentic Japanese food in the heart of Little Baguio.</p>
-         <Button variant="outline-primary">Browse Menu</Button>
+         <Link to="menu"><Button className="menu-btn" variant="outline-primary">Browse Menu</Button></Link>
       </div>
       </Fade>
 
