@@ -119,6 +119,17 @@ a:hover {
 	.padding-20 {
 		padding: 20px;
 	}
+	.text-justify {
+		text-align: justify;
+	}
+	.float-right {
+		float: right
+	}
+
+	
+	.w-300 {
+		width: 300px;
+	}
 @media (min-width: 576px) { 
 	#menu-container {
 		
