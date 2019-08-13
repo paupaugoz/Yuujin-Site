@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.00393e2e.chunk.css",
-    "main.js": "/static/js/main.36e3a40c.chunk.js",
-    "main.js.map": "/static/js/main.36e3a40c.chunk.js.map",
+    "main.css": "/static/css/main.ee59edec.chunk.css",
+    "main.js": "/static/js/main.eb25e005.chunk.js",
+    "main.js.map": "/static/js/main.eb25e005.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.8d18e009.chunk.js": "/static/js/2.8d18e009.chunk.js",
-    "static/js/2.8d18e009.chunk.js.map": "/static/js/2.8d18e009.chunk.js.map",
+    "static/js/2.0aff6843.chunk.js": "/static/js/2.0aff6843.chunk.js",
+    "static/js/2.0aff6843.chunk.js.map": "/static/js/2.0aff6843.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8891cc88e70ee36c9c2ab3295fe53dce.js": "/precache-manifest.8891cc88e70ee36c9c2ab3295fe53dce.js",
+    "precache-manifest.60bc74fc6b948e465ee8d566e3c49167.js": "/precache-manifest.60bc74fc6b948e465ee8d566e3c49167.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.00393e2e.chunk.css.map": "/static/css/main.00393e2e.chunk.css.map",
+    "static/css/main.ee59edec.chunk.css.map": "/static/css/main.ee59edec.chunk.css.map",
     "static/media/Hero.css": "/static/media/yuujin_bar_1080.d20709f7.jpg",
     "static/media/Body.css": "/static/media/yuujin_sign.27665f48.jpg"
   }
