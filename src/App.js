@@ -1,13 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import Fade from 'react-reveal/Fade';
-import Sticky from 'react-sticky-el';
 import Container from 'react-bootstrap/Container';
-import ScrollUpButton from 'react-scroll-up-button';
-import Hero from './components/hero/Hero';
+import Sticky from 'react-sticky-el';
+import MainBody from './components/body/MainBody';
 import NavBody from './components/body/NavBody';
-import Body from './components/body/Body';
-
+import Menu from './components/body/Menu';
 
 function App() {
   const divStyle = {
@@ -15,24 +12,28 @@ function App() {
     backgroundColor: 'var(--violet)',
 
   };
+
+  const [isHidden, setHidden] = useState({
+    mainBody: false,
+    menu: true,
+    contactUs: true,
+    location: true,
+    aboutUs: true,
+  });
+
+  const onClick = () => {
+    setHidden({ ...isHidden, mainBody: true, menu: false });
+  };
+
   return (
     <Container fluid style={{ padding: '0' }}>
       <div className="App wrap">
-        <div>
-          <ScrollUpButton AnimationDuration={500} />
+        <div className="sticky-container">
+          <Sticky style={divStyle} topOffset={300}>
+            <NavBody onClick={onClick} />
+          </Sticky>
         </div>
-        <Fade>
-          <div className="sticky-container">
-            <Sticky style={divStyle} topOffset={300}>
-              <NavBody />
-            </Sticky>
-          </div>
-
-          <Hero />
-        </Fade>
-
-
-        <Body />
+        <MainBody />
 
 
       </div>

@@ -1,27 +1,15 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Sticky from 'react-sticky-el';
 import NavBody from '../body/NavBody';
 import Footer from '../Footer/Footer';
 
-const AboutUs = () => {
-  const divStyle = {
-    color: 'white',
-    backgroundColor: 'var(--violet)',
-
-  };
-  return (
-    <Container fluid style={{ padding: '0px' }}>
-      <div className="sticky-container">
-        <Sticky style={divStyle} topOffset={300}>
-          <NavBody />
-        </Sticky>
-      </div>
-      <h1>About Us</h1>
-      <Footer />
-    </Container>
-  );
-};
+const AboutUs = () => (
+  <Container fluid style={{ padding: '0px' }}>
+    <NavBody />
+    <h1>About Us</h1>
+    <Footer />
+  </Container>
+);
 
 
 export default AboutUs;

@@ -13,11 +13,13 @@ import Footer from '../Footer/Footer';
 const Menu = () => (
 
   <div>
-
+    <NavBody />
     <div>
-      <NavBody />
+
       <Container id="test-container">
+
         <Container id="menu-container">
+
 
           <h1>Contact</h1>
           <Tabs defaultActiveKey="appetizer" id="uncontrolled-tab-example">
