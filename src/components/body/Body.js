@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import './Body.css';
 
@@ -54,7 +55,7 @@ const Body = () => (
           <MDBRow className="d-flex text-center justify-content-center mb-md-0 mb-4">
             <MDBCol md="8" sm="12" className="mt-5">
               <p style={{ lineHeight: '1.7rem' }}>
-              Owned and operated by: Maeda's Japanese Cuisine, Inc.
+              Owned and operated by:  Maeda's  Japanese Cuisine, Inc.
               </p>
             </MDBCol>
           </MDBRow>
@@ -62,19 +63,19 @@ const Body = () => (
           <MDBRow className="pb-3">
             <MDBCol md="12">
               <div className="mb-5 flex-center">
-                <a className="ic" target="_blank" href="https://www.facebook.com/yuujin.official/">
+                <a className="ic" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/yuujin.official/">
                   <i className="fab fa-facebook-f fa-lg white-text mr-md-4" />
                 </a>
-                <a className="ic" target="_blank" href="https://www.yelp.com/biz/yuujin-japanese-cuisine-san-juan?rh_ident=unagi&rh_type=phrase">
+                <a className="ic" target="_blank" rel="noopener noreferrer" href="https://www.yelp.com/biz/yuujin-japanese-cuisine-san-juan?rh_ident=unagi&rh_type=phrase">
                   <i className="fab fa-yelp fa-lg white-text mr-md-4"> </i>
                 </a>
-                <a className="ic" target="_blank" href="https://www.tripadvisor.com/Restaurant_Review-g298573-d1150290-Reviews-Yuujin-Manila_Metro_Manila_Luzon.html">
+                <a className="ic" target="_blank" rel="noopener noreferrer" href="https://www.tripadvisor.com/Restaurant_Review-g298573-d1150290-Reviews-Yuujin-Manila_Metro_Manila_Luzon.html">
                   <i className="fab fa-tripadvisor fa-lg white-text mr-md-4"> </i>
                 </a>
-                <a className="ic" target="_blank" href="https://foursquare.com/v/yuujin/4bdc070b2a3a0f47cf51b1b6">
+                <a className="ic" target="_blank" rel="noopener noreferrer" href="https://foursquare.com/v/yuujin/4bdc070b2a3a0f47cf51b1b6">
                   <i className="fab fa-foursquare fa-lg white-text mr-md-4"> </i>
                 </a>
-                <a className="ic" target="_blank" href="https://www.instagram.com/explore/locations/277203942/yuujin-japanese-cuisine/">
+                <a className="ic" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/explore/locations/277203942/yuujin-japanese-cuisine/">
                   <i className="fab fa-instagram fa-lg white-text mr-md-4"> </i>
                 </a>
               </div>
@@ -89,7 +90,7 @@ const Body = () => (
             {new Date().getFullYear()}
             {' '}
 Powered By:
-            <a href="https://paupaugoz.github.io/paulogozum-webportfolio/" target="_blank">Paulo Gozum</a>
+            <a href="https://paupaugoz.github.io/paulogozum-webportfolio/" target="_blank" rel="noopener noreferrer">Paulo Gozum</a>
           </MDBContainer>
         </div>
       </MDBFooter>
