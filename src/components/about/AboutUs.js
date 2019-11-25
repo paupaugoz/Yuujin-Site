@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Sticky from 'react-sticky-el';
 import NavBody from '../body/NavBody';
+import Footer from '../Footer/Footer';
 
 const AboutUs = () => {
   const divStyle = {
@@ -17,6 +18,7 @@ const AboutUs = () => {
         </Sticky>
       </div>
       <h1>About Us</h1>
+      <Footer />
     </Container>
   );
 };

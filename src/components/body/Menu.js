@@ -7,6 +7,7 @@ import {
   Temaki, Appetizer, Makimono, Sushi, Sashimi, RiceTopping, Rice, Yakimono, Agemono,
   Teppanyaki, HotNoodle, ColdNoodle, Salad, HotPot, Dessert, Beverages,
 } from './MenuItems/Index';
+import Footer from '../Footer/Footer';
 
 
 const Menu = () => (
@@ -74,7 +75,7 @@ const Menu = () => (
       </Container>
 
     </div>
-
+    <Footer />
   </div>
 );
 
