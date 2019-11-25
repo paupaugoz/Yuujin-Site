@@ -1,30 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react';
 import './Hero.css';
 import HeroPicture from './HeroPicture';
-export default class Hero extends Component {
 
-  render() {
-    return (
-<div id="hero-container">
-  <header>
-    
-    <HeroPicture/>
-   
-    
+const Hero = () => (
+  <div id="hero-container">
+    <header>
+
+      <HeroPicture />
 
 
+    </header>
 
-   
- 
 
-   
-    
-   
-  </header>
+  </div>
+);
 
-    
-</div>
-    )
-  }
 
-}
+export default Hero;
